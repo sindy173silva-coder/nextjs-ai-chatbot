@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ganhe Dinheiro com o Celular | Renda Extra Online</title>
+  <meta name="description" content="Transforme seu celular em uma fonte de renda e liberdade financeira. Descubra o método prático que milhares de pessoas já estão usando para lucrar pela internet.">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #f3e9ff, #fff);
+      color: #333;
+    }
+
+    header {
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    header img {
+      max-width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      color: #6b4ea0;
+      margin-top: 1rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin: 1rem auto;
+      max-width: 700px;
+    }
+
+    .cta-button {
+      display: inline-block;
+      background: linear-gradient(90deg, #7a3df0, #c48ef5);
+      color: white;
+      text-decoration: none;
+      padding: 1rem 2rem;
+      font-size: 1.2rem;
+      border-radius: 50px;
+      margin-top: 1.5rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .cta-button:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.25);
+    }
+
+    section {
+      text-align: center;
+      padding: 3rem 1.5rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #faf5ff;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://your-image-link-here.jpg" alt="Ganhe dinheiro com o celular">
+    <h1>💰 Ganhe Dinheiro com o Celular</h1>
+    <p>Transforme seu celular em sua fonte de renda e liberdade financeira com o método comprovado de Sindy Rodrigues.</p>
+    <a href="https://pay.kiwify.com.br/baGG6OM" class="cta-button">Quero Começar Agora 🚀</a>
+  </header>
+
+  <section>
+    <h2>📱 Trabalhe de Onde Estiver</h2>
+    <p>Com apenas um celular e acesso à internet, você pode criar uma fonte de renda constante. Não é sorte, é método. Milhares de pessoas comuns já estão fazendo isso todos os dias.</p>
+
+    <h2>✨ O Que Você Vai Aprender</h2>
+    <p>✅ Como gerar renda usando apenas seu celular.<br>
+       ✅ Estratégias simples e práticas para vender online.<br>
+       ✅ O passo a passo para conquistar liberdade financeira.<br>
+       ✅ Dicas e segredos que os grandes do marketing digital não contam.</p>
+
+    <a href="https://pay.kiwify.com.br/baGG6OM" class="cta-button">Acessar Agora ➜</a>
+  </section>
+
+  <footer>
+    <p>Autora: <strong>Sindy Rodrigues</strong> 💜 | Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # Upload entire repository
+          path: '.'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
